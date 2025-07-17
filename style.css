@@ -1,0 +1,61 @@
+header {
+    background-color: white;
+    border-style: ridge;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.titulo1 {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.artigo-caixa {
+    display: flex;
+    flex: 0 0 60%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.artigos {
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex: 0 0 30%;
+}
+
+.artigos2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    padding: 15px;
+    background-color: black;
+}
+
+.rodape {
+    color: white;
+    margin-left: 200px;
+}
+    
